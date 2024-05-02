@@ -1,0 +1,60 @@
+.custom-file-upload {
+    display: inline-block;
+    position: relative;
+}
+.custom-file-upload{
+
+}
+.custom-file-upload h5{
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.custom-file-upload i {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    font-size: 40px;
+    padding: 10px;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+}
+
+/* Uncomment the block below if you want to use a button */
+/*
+.custom-file-upload button {
+  cursor: pointer;
+  border: 2px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+}
+*/
+
+/* Hide the default file input */
+input[type='file'] {
+    display: none;
+}
+.custom-btn-hover{
+    color: white;
+    background:rgb(0, 47, 52);
+    transition: all .5s ease;
+
+}
+.custom-btn-hover:hover{
+    color: black;
+    background: rgb(255, 255, 255);
+    border:2px dashed black;
+
+}
